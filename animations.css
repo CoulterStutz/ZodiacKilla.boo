@@ -1,0 +1,29 @@
+@keyframes spotify_hover_in{
+    from {fill: #ffffff;}
+    to {fill: #1DB954;}
+}
+
+@keyframes spotify_hover_out{
+    from {fill: #1DB954;}
+    to {fill: #ffffff;}
+}
+
+@keyframes soundcloud_hover_in{
+    from {fill: #ffffff;}
+    to {fill: #ff7700;}
+}
+
+@keyframes soundcloud_hover_out{
+    from {fill: #ff7700;}
+    to {fill: #ffffff;}
+}
+
+@keyframes instagram_hover_in{
+    from {fill: #ffffff;}
+    to {fill: #9900ff;}
+}
+
+@keyframes instagram_hover_out{
+    from {fill: #9900ff;}
+    to {fill: #ffffff;}
+}

@@ -1,1 +1,88 @@
+@font-face {
+    font-family: "Zodiac";
+    src: url("/fonts/ZodiacNotesRegular-KqxW.ttf");
+}
 
+@keyframes spotify_hover_in{
+    from {fill: #ffffff;}
+    to {fill: #1DB954;}
+}
+
+@keyframes spotify_hover_out{
+    from {fill: #1DB954;}
+    to {fill: #ffffff;}
+}
+
+@keyframes soundcloud_hover_in{
+    from {fill: #ffffff;}
+    to {fill: #ff7700;}
+}
+
+@keyframes soundcloud_hover_out{
+    from {fill: #ff7700;}
+    to {fill: #ffffff;}
+}
+
+@keyframes instagram_hover_in{
+    from {fill: #ffffff;}
+    to {fill: #9900ff;}
+}
+
+@keyframes instagram_hover_out{
+    from {fill: #9900ff;}
+    to {fill: #ffffff;}
+}
+
+html{
+    width: 100%;
+    height: fit-content;
+    background-color: #111;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("images/BryanCar.jpg") scroll;
+    background-repeat: no-repeat; background-size: 100% 100%;
+    text-align: center;
+}
+
+.tbar{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #1a1a1a; 
+    margin: none;
+}
+
+.tbar>a{
+    text-decoration: none;
+    color: white;
+    font-size:larger;
+    padding-right: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-size-adjust: initial;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    letter-spacing: 10;
+    font-family: "Zodiac";
+}
+
+.title>h1{
+    padding: 20%;
+}
+
+.socials>svg{
+    fill: #ffffff;
+}
+
+.music{
+    padding-top: 10%;
+    margin: auto;
+    width: 80%;
+}
+
+.music>iframe{
+    margin-top: 3%;
+}
+
+.tbar>a:hover{
+    color: #e0e0e0
+}
