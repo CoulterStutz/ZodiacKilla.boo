@@ -38,7 +38,8 @@ html{
     height: fit-content;
     background-color: #111;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("images/BryanCar.jpg") scroll;
-    background-repeat: no-repeat; background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
     text-align: center;
 }
 
@@ -66,7 +67,7 @@ html{
 }
 
 .title>h1{
-    padding: 20%;
+    padding: 10%;
 }
 
 .socials>svg{
@@ -85,4 +86,9 @@ html{
 
 .tbar>a:hover{
     color: #e0e0e0
+}
+
+.instagram{
+    margin: auto;
+    width: max-content;
 }
