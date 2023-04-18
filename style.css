@@ -80,6 +80,10 @@ html{
     width: 80%;
 }
 
+.music>a{
+    color: white;
+}
+
 .music>iframe{
     margin-top: 3%;
 }
