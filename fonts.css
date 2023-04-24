@@ -2,3 +2,8 @@
     font-family: "Zodiac";
     src: url("/fonts/ZodiacNotesRegular-KqxW.ttf");
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf");
+}

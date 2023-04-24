@@ -82,6 +82,8 @@ html{
 
 .music>a{
     color: white;
+    font-size: larger;
+    font-family: "Roboto";
 }
 
 .music>iframe{
