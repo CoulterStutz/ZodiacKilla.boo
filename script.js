@@ -14,5 +14,5 @@ window.onload = function(){
     setTimeout(function(){title.textContent = "ZodiacKil𝓵a"}, message_delay*10);
     setTimeout(function(){title.textContent = "ZodiacKill𝖆"}, message_delay*11);
     setTimeout(function(){title.textContent = "ZodiacKilla"}, message_delay*12);
-
 }
+
