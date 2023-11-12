@@ -1,4 +1,5 @@
 let title = document.getElementById("title");
+let release_radar = document.getElementById("release_radar");
 let message_delay = 200;
 
 window.onload = function(){
@@ -14,5 +15,6 @@ window.onload = function(){
     setTimeout(function(){title.textContent = "ZodiacKil𝓵a"}, message_delay*10);
     setTimeout(function(){title.textContent = "ZodiacKill𝖆"}, message_delay*11);
     setTimeout(function(){title.textContent = "ZodiacKilla"}, message_delay*12);
+    setTimeout(function(){release_radar.style.visibility = "visible"}, message_delay*13);
 }
 
